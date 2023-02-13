@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+</head>
+<body>
+    <script src="/JS/bootstrap.min.js"></script>
+    <h1 class="mx-auto my-3" style="width: fit-content;">These are position practice</h1>
+    <div class="position-relative m-4">
+        <div class="progress" role="progressbar" aria-label="Progress" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+            <div class="progress-bar" style="width: 50%;"></div>
+        </div>
+        <button type="button" class="btn btn-primary btn-sm rounded-pill position-absolute top-50 start-0 translate-middle" style="width: 2rem; height:2rem;">1</button>
+        <button type="button" class="btn btn-primary btn-sm rounded-pill position-absolute top-50 start-50 translate-middle" style="width: 2rem; height:2rem;">2</button>
+        <button type="button" class="btn btn-secondary btn-sm rounded-pill position-absolute top-50 start-100 translate-middle" style="width: 2rem; height:2rem;">3</button>
+    </div>
+    <div class="position-relative bg-body-secondary mx-auto my-3" style="width: 600px; height: 200px;">
+        <button class="bg-dark text-white btn position-absolute top-0 start-0">A</button>
+        <button class="bg-dark text-white btn position-absolute top-0 end-0">B</button>
+        <button class="bg-dark text-white btn position-absolute bottom-0 start-0">C</button>
+        <button class="bg-dark text-white btn position-absolute bottom-0 end-0">D</button>
+        <button class="bg-dark text-white btn position-absolute top-50 start-50">E</button>
+        <button class="bg-dark text-white btn position-absolute bottom-50 end-50">F</button>
+    </div>
+    <div class="position-relative bg-body-secondary mx-auto my-5" style="width: 600px; height: 200px;">
+        <button class="bg-dark text-white btn position-absolute top-0 start-0 translate-middle">A</button>
+        <button class="bg-dark text-white btn position-absolute top-0 start-50 translate-middle">B</button>
+        <button class="bg-dark text-white btn position-absolute top-0 start-100 translate-middle">C</button>
+        <button class="bg-dark text-white btn position-absolute top-50 start-0 translate-middle">D</button>
+        <button class="bg-dark text-white btn position-absolute top-50 start-50 translate-middle">E</button>
+        <button class="bg-dark text-white btn position-absolute top-50 start-100 translate-middle">F</button>
+        <button class="bg-dark text-white btn position-absolute top-100 start-0 translate-middle">G</button>
+        <button class="bg-dark text-white btn position-absolute top-100 start-50 translate-middle">H</button>
+        <button class="bg-dark text-white btn position-absolute top-100 start-100 translate-middle">I</button>
+    </div>
+    <div class="position-relative bg-body-secondary mx-auto my-5" style="width: 600px; height: 200px;">
+        <button class="bg-dark text-white btn position-absolute top-0 start-0">A</button>
+        <button class="bg-dark text-white btn position-absolute top-0 start-50 translate-middle-x">B</button>
+        <button class="bg-dark text-white btn position-absolute top-0 end-0">C</button>
+        <button class="bg-dark text-white btn position-absolute top-50 start-0 translate-middle-y">D</button>
+        <button class="bg-dark text-white btn position-absolute top-50 start-50 translate-middle">E</button>
+        <button class="bg-dark text-white btn position-absolute top-50 end-0 translate-middle-y">F</button>
+        <button class="bg-dark text-white btn position-absolute bottom-0 start-0">G</button>
+        <button class="bg-dark text-white btn position-absolute bottom-0 start-50 translate-middle-x">H</button>
+        <button class="bg-dark text-white btn position-absolute bottom-0 end-0">I</button>
+    </div>
+    <div class="mx-auto my-5" style="width: fit-content;">
+        <button type="button" class="btn-primary btn text-white position-relative mx-5">
+            Mails <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">+99</span>
+        </button>
+        <button type="button" class="btn-primary btn text-white position-relative mx-5">
+            Alerts <span class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-2"><span class="visually-hidden"></span></span>
+        </button>
+    </div>
+</body>
+</html>
